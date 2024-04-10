@@ -1,11 +1,11 @@
+import './style.css'
+import { IconContext } from "react-icons";
+
 import { AiOutlineSearch, AiFillHome } from "react-icons/ai";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsPlusSquare } from "react-icons/bs";
 import { MdOutlineExplore } from "react-icons/md";
 import { FiHeart } from "react-icons/fi";
-
-import './style.css'
-import { IconContext } from "react-icons";
 
 export function Header(){
     

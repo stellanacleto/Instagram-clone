@@ -1,6 +1,7 @@
 import './style.css'
 
 import { Story } from '../Story'
+import { Post } from '../Post'
 
 export function Layout() {
 
@@ -14,8 +15,8 @@ export function Layout() {
                         <Story />
                     </div>
 
-                    <div className="box">
-                        post
+                    <div className="box" style={{margin: "30px 0"}}>
+                        <Post />
                     </div>
                 </div>
 
